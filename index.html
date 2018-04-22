@@ -11,7 +11,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><h4>	Index page</h4></a>
+  <a class="navbar-brand" href="#"><h4>	The Big 100 </h4></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,23 +19,23 @@
   <div class="collapse navbar-collapse clearfix" id="navbarColor02">
 
     <div class="btn-group pull-right" role="group" aria-label="nav_buttons">
-      <button type="button" class="btn btn-success"><a class="nav-link" href="index30.html" style="color: rgb(255,255,255)">Data</a></button>
+      <button type="button" class="btn btn-primary"><a class="nav-link" href="index30.html" style="color: rgb(255,255,255)">Data set</a></button>
+
     	<div class="btn-group pull-right" role="group" aria-label="Button group with nested dropdown">
-  	  		
-          <button type="button" class="btn btn-success">Visualizations</button>
-  	 		  <div class="btn-group" role="group">
-    			 <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+          <button type="button" class="btn btn-danger">Crime vs other metrics</button>
+          <div class="btn-group" role="group">
+    			 <button id="btnGroupDrop2" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
     			 <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
-      				<a class="dropdown-item" href="index11.html">Visualization 1</a>
-      				<a class="dropdown-item" href="index12.html">Visualization 2</a>
-      				<a class="dropdown-item" href="index13.html">Visualization 3</a>
-      				<a class="dropdown-item" href="index14.html">Visualization 4</a>
+      				<a class="dropdown-item" href="index11.html">Crime vs Education</a>
+      				<a class="dropdown-item" href="index12.html">Crime vs Employment</a>
+      				<a class="dropdown-item" href="index13.html">Crime vs Equality</a>
+      				<a class="dropdown-item" href="index14.html">Crime vs Affordability</a>
     			 </div>
   	 		  </div>
 
  		  </div>
   	  
-  	  <button type="button" class="btn btn-success"><a class="nav-link" href="index20.html" style="color: rgb(255,255,255)">Comparison</a></button>
+  	  <button type="button" class="btn btn-success"><a class="nav-link" href="index20.html" style="color: rgb(255,255,255)">Cities ratings</a></button>
 	</div>
   </div>
 
@@ -47,12 +47,13 @@
 
 <div class='row'>
 <div class="card border-success col-md-8">
-  <div class="card-header"><b>Summary</b></div>
+  <div class="card-header"><b>What are we doing?</b></div>
   <div class="card-body">
     <h6 class="card-title"></h6>
     <p class="card-text">
      <img src='index0.jpg' style="height: 300px; width: 70%; display: block;" align='left' hspace=25 vspace=25><br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    One of the most interesting, challenging and meaningful subjects of these days is cities sustainability. This term may embrace many concepts. How harmful is the city towards the planet? Can the city survive on its own or has the resources to share the wealth? Can the city be environmentally, socially and economically friendly?<br>
+    Of course, covering the whole available metrics is tough, so in this project we'll uncover some insights about social aspects of sustainable cities. The big 100 are the most influetial and populated cities across the globe. You can see the whole data set under data tab.
 
     </p>
   </div>
@@ -61,10 +62,37 @@
   <div class="card-body">
     <h6 class="card-title"></h6>
     <p class="card-text">
-      <span class="badge badge-success">Visualization 1</span><br><br>
-      <img src='emplcrime.png' style="height: 300px; width: 100%; display: block;"><br>
-      <span class="badge badge-success">Visualization 2</span><br><br>
-      <img src='im00.jpg' style="height: 200px; width: 100%; display: block;"><br>
+      <span class="badge badge-primary">Crime data over other metrics</span>
+      <div class='row'>
+      <div class="col-xs-12 col-md-5"><img class="img-responsive" src='emplcrime.png' style="width: 100%; display: block;" hspace=10 vspace=10></div>
+      <div class="col-xs-12 col-md-5"><img class="img-responsive" src='educcrime.png' style="width: 100%; display: block;" hspace=10 vspace=10></div>
+      <div class="w-100"></div>
+      <div class="col-xs-12 col-md-5"><img class="img-responsive" src='affordcrime.png' style="width: 100%; display: block;"  hspace=10 vspace=10></div>
+      <div class="col-xs-12 col-md-5"><img class="img-responsive" src='equalcrime.png' style="width: 100%; display: block;"  hspace=10 vspace=10></div>
+      </div>
+      <br>
+      <span class="badge badge-primary">Most healthy cities</span><br>
+      Tokyo<br>
+      <div class="progress">
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Singapore<br>
+      <div class="progress">
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Seoul<br>
+      <div class="progress">
+       <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Hong Kong<br>
+      <div class="progress">
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      Zurich<br>
+      <div class="progress">
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+ 
       <span class="badge badge-success">Visualization 3</span><br><br>
       <img src='im00.jpg' style="height: 200px; width: 100%; display: block;"><br>
 
