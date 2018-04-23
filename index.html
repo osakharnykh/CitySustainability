@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset='UTF-8'>
-	<title>landing page</title>
+	<title>The Big 100</title>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.0/solar/bootstrap.min.css">
 </head>
@@ -23,13 +23,15 @@
 
     	<div class="btn-group pull-right" role="group" aria-label="Button group with nested dropdown">
           <button type="button" class="btn btn-danger">Crime vs other metrics</button>
-          <div class="btn-group" role="group">
+            <div class="btn-group" role="group">
     			 <button id="btnGroupDrop2" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
     			 <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
       				<a class="dropdown-item" href="index11.html">Crime vs Education</a>
       				<a class="dropdown-item" href="index12.html">Crime vs Employment</a>
       				<a class="dropdown-item" href="index13.html">Crime vs Equality</a>
       				<a class="dropdown-item" href="index14.html">Crime vs Affordability</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index15.html">Crime graph comparison</a>
     			 </div>
   	 		  </div>
 
@@ -58,43 +60,43 @@
     </p>
   </div>
 </div><div class="card border-success col-md-4">
-  <div class="card-header"><b>Visualization</b></div>
+  <div class="card-header"><b>At a glance</b></div>
   <div class="card-body">
     <h6 class="card-title"></h6>
     <p class="card-text">
       <span class="badge badge-primary">Crime data over other metrics</span>
+      <br>Click each thumbnail to see details<br>
       <div class='row'>
-      <div class="col-xs-12 col-md-5"><img class="img-responsive" src='emplcrime.png' style="width: 100%; display: block;" hspace=10 vspace=10></div>
-      <div class="col-xs-12 col-md-5"><img class="img-responsive" src='educcrime.png' style="width: 100%; display: block;" hspace=10 vspace=10></div>
+      <div class="col-xs-12 col-md-5"><a href='index12.html'><img class="img-responsive" src='emplcrime.png' style="width: 100%; display: block;" hspace=10 vspace=10></a></div>
+      <div class="col-xs-12 col-md-5"><a href='index11.html'><img class="img-responsive" src='educcrime.png' style="width: 100%; display: block;" hspace=10 vspace=10></a></div>
       <div class="w-100"></div>
-      <div class="col-xs-12 col-md-5"><img class="img-responsive" src='affordcrime.png' style="width: 100%; display: block;"  hspace=10 vspace=10></div>
-      <div class="col-xs-12 col-md-5"><img class="img-responsive" src='equalcrime.png' style="width: 100%; display: block;"  hspace=10 vspace=10></div>
+      <div class="col-xs-12 col-md-5"><a href='index14.html'><img class="img-responsive" src='affordcrime.png' style="width: 100%; display: block;"  hspace=10 vspace=10></a></div>
+      <div class="col-xs-12 col-md-5"><a href='index13.html'><img class="img-responsive" src='equalcrime.png' style="width: 100%; display: block;"  hspace=10 vspace=10></a></div>
       </div>
       <br>
-      <span class="badge badge-primary">Most healthy cities</span><br>
-      Tokyo<br>
+      <span class="badge badge-primary">Highest ranked cities</span><br>
+      Weighed overall score. For detailed information, check Cities ratings tab<br>
+      Antwerp<br>
       <div class="progress">
-      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
-      Singapore<br>
+      Rotterdam<br>
       <div class="progress">
-      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 77%" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
-      Seoul<br>
+      Hamburg<br>
       <div class="progress">
-       <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+       <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
-      Hong Kong<br>
+      Prague<br>
       <div class="progress">
-      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
-      Zurich<br>
+      Munich<br>
       <div class="progress">
-      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
+      <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 74%" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
+      </div><br><br>
  
-      <span class="badge badge-success">Visualization 3</span><br><br>
-      <img src='im00.jpg' style="height: 200px; width: 100%; display: block;"><br>
 
     </p>
   </div>

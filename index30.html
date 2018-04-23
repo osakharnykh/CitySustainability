@@ -11,7 +11,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><h4>	Data</h4></a>
+  <a class="navbar-brand" href="#"><h4> Data set </h4></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,23 +19,28 @@
   <div class="collapse navbar-collapse clearfix" id="navbarColor02">
 
     <div class="btn-group pull-right" role="group" aria-label="nav_buttons">
-    	<div class="btn-group pull-right" role="group" aria-label="Button group with nested dropdown">
-  	  		<button type="button" class="btn btn-success">Visualizations</button>
-  	 		  <div class="btn-group" role="group">
-    			 <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-    			 <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
-      				<a class="dropdown-item" href="index11.html">Visualization 1</a>
-      				<a class="dropdown-item" href="index12.html">Visualization 2</a>
-      				<a class="dropdown-item" href="index13.html">Visualization 3</a>
-      				<a class="dropdown-item" href="index14.html">Visualization 4</a>
-    			 </div>
-  	 		  </div>
- 		  </div>
-  	  <button type="button" class="btn btn-success"><a class="nav-link" href="index20.html" style="color: rgb(255,255,255)">Comparison</a></button>
-	</div>
+      <button type="button" class="btn btn-primary"><a class="nav-link" href="index20.html" style="color: rgb(255,255,255)">City Rankings</a></button>
+
+      <div class="btn-group pull-right" role="group" aria-label="Button group with nested dropdown">
+          <button type="button" class="btn btn-danger">Crime vs other metrics</button>
+          <div class="btn-group" role="group">
+           <button id="btnGroupDrop2" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+           <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+              <a class="dropdown-item" href="index11.html">Crime vs Education</a>
+              <a class="dropdown-item" href="index12.html">Crime vs Employment</a>
+              <a class="dropdown-item" href="index13.html">Crime vs Equality</a>
+              <a class="dropdown-item" href="index14.html">Crime vs Affordability</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index15.html">Crime graph comparison</a>
+           </div>
+          </div>
+
+      </div> 
+      
   </div>
 
-<a href='index00.html'><button type="button" class="btn btn-danger">Back to main page</button></a>
+  </div>
+  <button type="button" class="btn btn-success"><a class="nav-link" href="index.html" style="color: rgb(255,255,255)">Back to main page</a></button>
 
 </nav>
 
@@ -48,7 +53,7 @@
   <div class="card-body">
     <h6 class="card-title"></h6>
     <p class="card-text">
-      <img src='index01.jpg' style="height: 150px; display: block;" text-align='center' hspace=25 vspace=25><br>
+      <img src='index01.jpg' style="height: 150px; display: block;" text-align='center' hspace=25 vspace=25>
 Data for the plots was sourced from Arcadis, a global consulting company that specializes on providing meaningful insights through analysis of human, natural and build data.<br>
 Particular data was sourced in 2016, and provides detailed slicing for 100 cities all over the world. I was interested in social aspects of this data, therefore the columns of the data are as follow:
 

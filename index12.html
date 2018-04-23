@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang='en-us'>
+
+<head>
+	<meta charset='UTF-8'>
+	<title>Crime over Employment</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.0/solar/bootstrap.min.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><h3>	Crime vs Employment </h3></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse clearfix" id="navbarColor02">
+
+    <div class="btn-group pull-right" role="group" aria-label="nav_buttons">
+      <button type="button" class="btn btn-primary"><a class="nav-link" href="index30.html" style="color: rgb(255,255,255)">Data set</a></button>
+
+    	<div class="btn-group pull-right" role="group" aria-label="Button group with nested dropdown">
+          <button type="button" class="btn btn-danger">Crime vs other metrics</button>
+          <div class="btn-group" role="group">
+    			 <button id="btnGroupDrop2" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+    			 <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+      				<a class="dropdown-item" href="index11.html">Crime vs Education</a>
+      				<a class="dropdown-item" href="index12.html">Crime vs Employment</a>
+      				<a class="dropdown-item" href="index13.html">Crime vs Equality</a>
+      				<a class="dropdown-item" href="index14.html">Crime vs Affordability</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index15.html">Crime graph comparison</a>
+    			 </div>
+  	 		  </div>
+
+ 		  </div>
+  	  
+  	  <button type="button" class="btn btn-success"><a class="nav-link" href="index20.html" style="color: rgb(255,255,255)">Cities ratings</a></button>
+	</div>
+  </div>
+<button type="button" class="btn btn-success"><a class="nav-link" href="index.html" style="color: rgb(255,255,255)">Back to main page</a></button>
+</nav>
+
+
+<div class='container'>
+
+<div class="card border-danger col-md-12">
+  <div class="card-header">Crime data plotted over Employment data</div>
+  <div class="card-body">
+    <h4 class="card-title"></h4>
+    <p class="card-text">
+    <img src='emplcrime.png' style="display: block;" align='left' hspace=25 vspace=25>
+    <br><br>This plot shows how employment rankings correlate with safety. The trends are showing different story from the one we had with education. 
+    </p>
+  </div>
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
